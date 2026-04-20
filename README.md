@@ -40,9 +40,10 @@ Below is a summary of how my GloVe + CNN model stacked up against the project's 
 ## Repository Structure
 * `Data_cleaning_DSAI.ipynb`: Jupyter notebook containing the full exploratory data analysis (EDA) and text preprocessing pipeline.
 * `DSAI4205_Project_CNN_GloVe.ipynb`: Jupyter notebook containing the tokenization, embedding matrix construction, CNN architecture, and model evaluation.
+* `PERFECT2_cleaned_reddit_opinion-2.csv`: The cleaned CSV file of the data. 
 * `Final Report.pdf`: The comprehensive group report detailing the methodology, baseline establishment, and comparative analysis of all models.
 
 ## How to Run
 1. Clone this repository.
 2. Ensure you have the required libraries installed (`pandas`, `numpy`, `nltk`, `seaborn`, `matplotlib`, `tensorflow`, `gensim`, `scikit-learn`).
-3. Run the `DSAI4205_Project_CNN_GloVe.ipynb` notebook, ensuring the file path to the cleaned CSV is correctly mapped in the data-loading cell. (Note: The GloVe 300d embeddings require a ~376MB download upon first execution).
+3. Run the `DSAI4205_Project_CNN_GloVe.ipynb` notebook, ensuring the file path to the cleaned CSV (PERFECT2_cleaned_reddit_opinion-2.csv) is correctly mapped in the data-loading cell. (Note: The GloVe 300d embeddings require a ~376MB download upon first execution).
